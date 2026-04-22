@@ -6,6 +6,8 @@ public class Ex08 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
+        // Define a localização para ajustar a formatação dos números, como trocar vírgula por ponto
+        Locale locale = Locale.US;
         entrada.useLocale(Locale.US);
 
         int numLado = 0;
