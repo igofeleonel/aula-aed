@@ -1,8 +1,8 @@
-
 import java.util.Scanner;
 
 public class Main03 {
-      public static Scanner teclado = new Scanner(System.in);
+    
+    public static Scanner teclado = new Scanner(System.in);
 
     public static int lerInteiro(){
         int valor;

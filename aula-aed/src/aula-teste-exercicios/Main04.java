@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main04 {
@@ -14,6 +13,5 @@ public class Main04 {
         System.out.print(mensagem);
         return entrada.nextLine();
     }
-
 }
 }

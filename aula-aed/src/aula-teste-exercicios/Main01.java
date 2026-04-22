@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main01 {
@@ -23,6 +22,5 @@ public class Main01 {
 
         //Saída
         System.out.println(numero_quadrado);
-
     }
 }
