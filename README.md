@@ -6,7 +6,7 @@ Repositório dedicado ao armazenamento de exercícios, exemplos e projetos desen
 
 ## 🎓 Informações Acadêmicas
 
-- **Instituição:** IFPR - Campus Cascavel
+- **Instituição:** IFPR - Instituto Federal do Paraná - Campus Cascavel
 - **Curso:** Tecnólogo em Análise e Desenvolvimento de Sistemas
 - **Período:** 1º ano
 
