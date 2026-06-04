@@ -26,6 +26,20 @@ Repositório dedicado ao armazenamento de exercícios, exemplos e projetos desen
 
 ```bash
 src
+├─260514
+   └── Main.java
+├──260515
+    └── Main.java
+    └── Main01.java
+    └── Main02.java
+    └── Main03.java
+├──260520
+    └── Main.java
+├──260521
+    └── Main.java
+    └── Main01.java
+├──260603
+    └── Main.java
 ├── aula-teste-exercicios
 │   ├── Main01.java
 │   ├── Main02.java
@@ -46,6 +60,20 @@ src
 │   ├── Main16.java
 │   ├── Main17.java
 │   └── Main18.java
+│   └── Main18.java
+│   └── Main19.java
+│   └── Main20.java
+│   └── Main21.java
+│   └── Main22.java
+│   └── Main23.java
+│   └── Main24.java
+│   └── Main25.java
+│   └── Main26.java
+│   └── Main27.java
+│   └── Main28.java
+│   └── Main29.java
+│   └── Main30.java
+└── main
 └── T1
     ├── ex01
     │   ├── Ex01_fluxograma.svg
