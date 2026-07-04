@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main_1078 {
+public class Main_1095 {
+    
     public static Scanner entrada = new Scanner(System.in);
 
     public static int lerInteiro(String mensagem) {
@@ -11,12 +12,8 @@ public class Main_1078 {
     }
 
     public static void main(String[] args) {
-        int resultado_valor = 0;
-        int N = entrada.nextInt();
-
-        for (int i = 1; i <=10; i++) {
-            resultado_valor = i * N;
-            System.out.println(i + " x " + N +" = " + resultado_valor);
+        for (int I=1, J=60; J>=0; I+=3,J-=5) {
+            System.out.println("I="+I+" J="+J);
         }
     }
 }

@@ -9,7 +9,7 @@ public class Main_1072 {
         lerInteiros = entrada.nextInt();
         return lerInteiros;
     }
-
+    
     public static void main(String[] args) {
         int N = entrada.nextInt();
         int in = 0, out = 0;
