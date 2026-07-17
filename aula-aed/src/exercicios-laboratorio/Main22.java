@@ -8,7 +8,7 @@ public class Main22 {
         return entrada.nextInt();
     }
 
-    public static void calcularMedia() { 
+    public static void calcularMedia() {
         int aprovados = 0;
         double nota;
         int i = 0;
@@ -22,7 +22,7 @@ public class Main22 {
             soma_nota += nota;
 
             if (nota >= 7.0) {
-                aprovados++; 
+                aprovados++;
             }
             i++;
         }
@@ -31,7 +31,7 @@ public class Main22 {
 
         System.out.println("\n" + aprovados + " alunos foram aprovados");
         System.out.println("Media da turma: " + media_turma);
-    }  
+    }
 
     public static void main(String[] args) {
         int numero = -1;

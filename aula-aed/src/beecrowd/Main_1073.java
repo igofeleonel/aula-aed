@@ -9,13 +9,12 @@ public class Main_1073 {
         lerInteiros = entrada.nextInt();
         return lerInteiros;
     }
-
+    
     public static void main(String[] args) {
         int N = entrada.nextInt();
 
         for (int i = 1; i <=N; i++) {
             if (i % 2 == 0) {
-
                 System.out.println(i + "^2 = " + (i * i));
             }
         }

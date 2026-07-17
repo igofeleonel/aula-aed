@@ -35,7 +35,7 @@ public class Main {
         for (int i = 0; i < vezes; i++){
             System.out.println(caractere);
         }
-
+        
         // Saída
         entrada.close();
     }

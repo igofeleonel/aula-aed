@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Main {
-    
+
     public static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-        
+
         // pessoa
         System.out.println("Qual é o seu peso: ");
         double peso = entrada.nextDouble();
@@ -16,10 +16,6 @@ public class Main {
 
         // imc
         double imc = peso / (Math.pow(altura, 2));
-        
-        
+
     }
-
-
-
 }

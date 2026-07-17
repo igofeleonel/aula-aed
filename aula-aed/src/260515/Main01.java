@@ -14,12 +14,12 @@ public class Main01 {
         int i, j, k = 0, n_j = 1;
 
         int n = lerInteiro("Digite o número de linhas: ");
-        
+
         int n_i = n - 1;
 
         while (k < n) {
             for (i = 0; i < n_i; i++) {
-                System.out.print("-"); 
+                System.out.print("-");
             }
             for (j = 0; j < n_j; j++) {
                 System.out.print("*");

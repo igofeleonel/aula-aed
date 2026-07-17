@@ -26,6 +26,5 @@ public class Main_1072 {
 
         System.out.printf("%d in\n", in);
         System.out.printf("%d out\n", out);
-        
     }
 }

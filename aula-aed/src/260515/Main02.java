@@ -22,7 +22,7 @@ public class Main02 {
         System.out.println(mensagem);
         return entrada.nextInt();
     }
-
+    
     public static void main(String[] args) {
         int senha = entrada.nextInt();
         while (senha != 2002) {

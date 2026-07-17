@@ -15,8 +15,7 @@ public class Main {
         int opcao = entrada.nextInt();
         System.out.println("Quantas vezes deseja repetir?");
         int vezes = entrada.nextInt();
-
-
+        
         String caractere = "";
         // Processamento
 

@@ -4,7 +4,7 @@ public class Main30 {
 
     public static Scanner entrada = new Scanner(System.in);
 
-    public static boolean ehPerfeito(int n){
+    public static boolean ehPerfeito(int n) {
 
         if (n <= 1) {
             return false;
@@ -12,7 +12,7 @@ public class Main30 {
 
         int soma = 0;
 
-        for(int i = 1; i <= n / 2; i++){
+        for (int i = 1; i <= n / 2; i++) {
             if (n % i == 0) {
                 soma++;
             }
@@ -32,7 +32,7 @@ public class Main30 {
             System.out.println("Falso");
             System.out.println(n + " não é perfeito");
         }
-        
+
         entrada.close();
     }
 }

@@ -1,3 +1,4 @@
+
 /*
  
  QUESTÃO
@@ -31,7 +32,7 @@
 import java.util.Scanner;
 
 public class Main03 {
-    
+
     public static Scanner entrada = new Scanner(System.in);
 
     public static int lerInteiro(String mensagem) {
@@ -45,11 +46,14 @@ public class Main03 {
         while (entrada.hasNext()) {
             L = entrada.nextInt();
             nivel = 0;
-            for(int i = 0; i < L; i++) {
+            for (int i = 0; i < L; i++) {
                 velocidade = entrada.nextInt();
-                if (velocidade < 10 && nivel <= 1) nivel = 1;
-                else if (velocidade >= 20 && nivel <= 3) nivel = 3;
-                else if (nivel < 2) nivel = 2;
+                if (velocidade < 10 && nivel <= 1)
+                    nivel = 1;
+                else if (velocidade >= 20 && nivel <= 3)
+                    nivel = 3;
+                else if (nivel < 2)
+                    nivel = 2;
             }
             System.out.println(nivel);
             System.out.print("Velocidade: ");

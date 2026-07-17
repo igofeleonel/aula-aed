@@ -12,11 +12,11 @@ public class Main15 {
 
     public static char lerCaractere(String mensagem) {
         System.out.println(mensagem);
-        return entrada.next() .charAt (0); // Lê o primeiro caractere digiitado
+        return entrada.next().charAt(0); // Lê o primeiro caractere digiitado
     }
-    
+
     public static void main(String[] args) {
-        //varáveis
+        // varáveis
 
         double valor_1, valor_2;
         char operador;

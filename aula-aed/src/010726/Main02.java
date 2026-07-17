@@ -14,9 +14,9 @@ public class Main02 {
     public static String determinarSituacao() {
         System.out.print("Média do aluno: ");
         double m = entrada.nextDouble();
-        if (m >=7 ){
-            return  "Aprovado";
-        } else if (m >= 5){
+        if (m >= 7) {
+            return "Aprovado";
+        } else if (m >= 5) {
             return "Recuperação";
         } else {
             return "Reprovado";

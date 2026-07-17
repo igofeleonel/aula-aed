@@ -13,7 +13,7 @@ public class Main05 {
 
         return valor_inteiro;
     }
-
+    
     public static void main(String[] args) {
         // Variáveis
         int idade;

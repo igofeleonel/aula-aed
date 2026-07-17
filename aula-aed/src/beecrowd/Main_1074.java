@@ -13,7 +13,7 @@ public class Main_1074 {
     public static void main(String[] args) {
         int N = entrada.nextInt();
 
-        for ( int i = 0; i < N; i++ ) {
+        for (int i = 0; i < N; i++) {
             int x = entrada.nextInt();
 
             if (x % 2 == 0 && x > 0) {
