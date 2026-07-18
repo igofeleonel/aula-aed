@@ -14,18 +14,18 @@ public class Ex10 {
     public static void main(String[] args) {
         int somaNum = lerInteiro("");
         int i;
-        int numero;
+        int somaDivisores;
 
         while (true) {
-            numero = 0;
+            somaDivisores = 0;
 
             for (i = 1; i < somaNum; i++) {
                 if (somaNum % i == 0) {
-                    numero = numero + i;
+                    somaDivisores = somaDivisores + i;
                 }
             }
 
-            if (numero == somaNum) {
+            if (somaDivisores == somaNum) {
                 System.out.println(somaNum);
                 break;
             }

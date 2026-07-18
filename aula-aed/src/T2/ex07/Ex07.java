@@ -5,29 +5,33 @@ public class Ex07 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static int lerInteiro(String mensagem) {
-        int lerInteiro;
-        System.out.println(mensagem);
-        lerInteiro = entrada.nextInt();
-        return lerInteiro;
+        int valor_inteiro;
+        System.out.print(mensagem);
+        valor_inteiro = entrada.nextInt();
+        return valor_inteiro;
     }
 
     public static void main(String[] args) {
-        int i, j;
-        int inicio, fim, ehPrimo = 0;
+        int inicio, fim;
+        int ePrimo;
 
-        inicio = entrada.nextInt();
-        fim = entrada.nextInt();
+        inicio = lerInteiro("");
+        fim = lerInteiro("");
 
-        for (i = inicio; i <= fim; i++) {
-            for (j = 1; j <= i; j++) {
+        for (int i = inicio; i <= fim; i++) {
+            ePrimo = 0;
+
+            for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
-                    ehPrimo++;
+                    ePrimo++;
                 }
             }
-            if (ehPrimo == 2) {
+
+            if (ePrimo == 2) {
                 System.out.println(i);
             }
-            ehPrimo = 0;
+
+            ePrimo = 0;
         }
     }
 }

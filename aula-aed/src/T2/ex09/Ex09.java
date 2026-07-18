@@ -26,13 +26,13 @@ public class Ex09 {
     }
 
     public static boolean ePerfeito(int x) {
-        int somaDiv = 0;
+        int somaDivisores = 0;
 
         for (int i = 1; i <= (x / 2); i++) {
-            if ((x % i) == 0) {
-                somaDiv = somaDiv + i;
+            if (x % i == 0) {
+                somaDivisores = somaDivisores + i;
             }
         }
-        return (x == somaDiv);
+        return (x == somaDivisores);
     }
 }

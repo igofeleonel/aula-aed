@@ -18,8 +18,7 @@ public class Ex06 {
 
         for (int bordaAtual = 1; bordaAtual <= n; bordaAtual++) {
             for (int ultimaLinha = 1; ultimaLinha <= n; ultimaLinha++) {
-                if (bordaAtual == 1 || bordaAtual == n
-                        || ultimaLinha == 1 || ultimaLinha == n) {
+                if (bordaAtual == 1 || bordaAtual == n || ultimaLinha == 1 || ultimaLinha == n) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
