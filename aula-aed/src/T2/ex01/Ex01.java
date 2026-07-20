@@ -10,7 +10,7 @@ public class Ex01 {
         valor_inteiro = entrada.nextInt();
         return valor_inteiro;
     }
-    
+
     public static void main(String[] args) {
         int n;
 

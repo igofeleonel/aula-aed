@@ -12,12 +12,12 @@ public class Ex03 {
     }
 
     public static void main(String[] args) {
-        int n;
+        int n = 0;
 
         n = InteiroPositivo("");
 
-        for (int linha = n; linha >= 1; linha--) {
-            for (int qtde_asteriscos = 1; qtde_asteriscos <= linha; qtde_asteriscos++) {
+        for (int linhas = n; linhas >= 1; linhas--) {
+            for (int qtde_asteriscos = 1; qtde_asteriscos <= linhas; qtde_asteriscos++) {
                 System.out.print("*");
             }
             System.out.println("");

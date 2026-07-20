@@ -16,9 +16,9 @@ public class Ex06 {
 
         n = InteiroPositivo("");
 
-        for (int bordaAtual = 1; bordaAtual <= n; bordaAtual++) {
-            for (int ultimaLinha = 1; ultimaLinha <= n; ultimaLinha++) {
-                if (bordaAtual == 1 || bordaAtual == n || ultimaLinha == 1 || ultimaLinha == n) {
+        for (int linhas = 1; linhas <= n; linhas++) {
+            for (int posicaoColuna = 1; posicaoColuna <= n; posicaoColuna++) {
+                if (linhas == 1 || linhas == n || posicaoColuna == 1 || posicaoColuna == n) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");

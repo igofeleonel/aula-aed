@@ -4,7 +4,7 @@ public class Ex02 {
 
     public static Scanner entrada = new Scanner(System.in);
 
-    public static int InteirPositivo(String mensagem) {
+    public static int InteiroPositivo(String mensagem) {
         int valor_inteiro;
         System.out.print(mensagem);
         valor_inteiro = entrada.nextInt();
@@ -12,12 +12,12 @@ public class Ex02 {
     }
 
     public static void main(String[] args) {
-        int n;
+        int n = 0;
 
-        n = InteirPositivo("");
+        n = InteiroPositivo("");
 
-        for (int asteriscos = 1; asteriscos <= n; asteriscos++) {
-            for (int linha = 1; linha <= asteriscos; linha++) {
+        for (int qtde_asteriscos = 1; qtde_asteriscos <= n; qtde_asteriscos++) {
+            for (int linhas = 1; linhas <= qtde_asteriscos; linhas++) {
                 System.out.print("*");
             }
             System.out.println("");
