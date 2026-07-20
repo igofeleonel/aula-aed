@@ -13,25 +13,25 @@ public class Ex07 {
 
     public static void main(String[] args) {
         int inicio, fim;
-        int ePrimo;
+        int eprimo;
 
         inicio = lerInteiro("");
         fim = lerInteiro("");
 
         for (int i = inicio; i <= fim; i++) {
-            ePrimo = 0;
+            eprimo = 0;
 
             for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
-                    ePrimo++;
+                    eprimo++;
                 }
             }
 
-            if (ePrimo == 2) {
+            if (eprimo == 2) {
                 System.out.println(i);
             }
 
-            ePrimo = 0;
+            eprimo = 0;
         }
     }
 }

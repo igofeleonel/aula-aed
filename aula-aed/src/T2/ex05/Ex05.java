@@ -16,9 +16,9 @@ public class Ex05 {
 
         n = lerInteiro("");
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
+        for (int linhas_numero = 1; linhas_numero <= n; linhas_numero++) {
+            for (int linhas_coluna = 1; linhas_coluna <= linhas_numero; linhas_coluna++) {
+                System.out.print(linhas_coluna + " ");
             }
             System.out.println();
         }

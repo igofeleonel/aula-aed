@@ -12,9 +12,11 @@ public class Ex10 {
     }
 
     public static void main(String[] args) {
-        int somaNum = lerInteiro("");
+        int somaNum;
         int i;
         int somaDivisores;
+
+        somaNum = lerInteiro("");
 
         while (true) {
             somaDivisores = 0;

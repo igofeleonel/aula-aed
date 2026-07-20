@@ -16,8 +16,8 @@ public class Ex01 {
 
         n = InteiroPositivo("");
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
+        for (int linha_asteriscos = 1; linha_asteriscos <= n; linha_asteriscos++) {
+            for (int colunas_asteriscos = 1; colunas_asteriscos <= n; colunas_asteriscos++) {
                 System.out.print("*");
             }
             System.out.println();
