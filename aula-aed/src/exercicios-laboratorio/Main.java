@@ -5,7 +5,7 @@ public class Main {
 
     public static Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
 
-    public static String lerString(String mensagem){
+    public static String lerString(String mensagem) {
         // Variáveis
         String frase;
 
@@ -13,11 +13,11 @@ public class Main {
         // Leitura do teclado
         frase = entrada.nextLine();
 
-        // Retorno 
+        // Retorno
         return frase;
     }
 
-     public static double lerReal(String mensagem){
+    public static double lerReal(String mensagem) {
         // Variáveis
         double valor_real;
 
@@ -29,7 +29,7 @@ public class Main {
         return valor_real;
     }
 
-    public static int lerInteiro(String mensagem){
+    public static int lerInteiro(String mensagem) {
         // Variáveis
         int valor_inteiro;
 
@@ -37,10 +37,10 @@ public class Main {
         // Leitura do teclado
         valor_inteiro = entrada.nextInt();
 
-        // Retorno 
+        // Retorno
         return valor_inteiro;
     }
-    
+
     public static void main(String[] args) {
         // Variáveis
         String nome;
@@ -50,7 +50,7 @@ public class Main {
         nome = lerString("Produto: ");
         codigo = lerInteiro("Codigo: ");
         preco = lerReal("Preco: ");
-        
+
         System.out.println("--------- Ficha do Produto ----------");
         System.out.printf("Nome: %s\n", nome);
         System.out.printf("Código: %d\n", codigo);

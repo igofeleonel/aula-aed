@@ -12,7 +12,7 @@ public class Ex03 {
     }
 
     public static void main(String[] args) {
-        int n = 0;
+        int n = 5;
 
         n = InteiroPositivo("");
 

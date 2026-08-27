@@ -20,7 +20,7 @@ public class Ex01 {
         double x2 = entrada.nextDouble();
 
         double y1 = a * x1 + b * x2;
-        double y2 = c * x1 + d * x2; 
+        double y2 = c * x1 + d * x2;
 
         System.out.println("y1: " + (int) y1);
         System.out.println("y2: " + (int) y2);

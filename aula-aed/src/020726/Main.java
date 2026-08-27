@@ -8,7 +8,7 @@ public class Main {
         int lerInteiro;
         System.out.println(mensagem);
         lerInteiro = entrada.nextInt();
-        return  lerInteiro;
+        return lerInteiro;
     }
 
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Main {
                     System.out.print("");
                 }
             }
-            
+
             System.out.println();
         }
     }

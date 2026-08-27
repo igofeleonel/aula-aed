@@ -4,35 +4,44 @@ public class Ex09 {
 
     public static Scanner entrada = new Scanner(System.in);
 
-    public static int InteiroPositivo(String mensagem) {
-        int InteiroPositivo;
-        System.out.print(mensagem);
-        InteiroPositivo = entrada.nextInt();
-        return InteiroPositivo;
+    public static int lerInteiro(String msg) {
+        int valores_inteiros;
+        System.out.print(msg);
+        valores_inteiros = entrada.nextInt();
+        return valores_inteiros;
     }
 
     public static void main(String[] args) {
-        int x, y;
-        int n;
 
-        x = InteiroPositivo("");
-        y = InteiroPositivo("");
+        int i;
 
-        for (n = x; n <= y; n++) {
-            if (ePerfeito(n)) {
-                System.out.println(n);
+        int valor01 = lerInteiro("");
+        int valor02 = lerInteiro("");
+
+        int x = Math.min(valor01, valor02);
+        int y = Math.max(valor01, valor02);
+
+        for (i = x; i <= y; i++) {
+            if (ePerfeito(i)) {
+                System.out.println(i);
             }
         }
     }
 
-    public static boolean ePerfeito(int x) {
+    public static boolean ePerfeito(int numero) {
+        int i;
         int somaDivisores = 0;
 
-        for (int i = 1; i <= (x / 2); i++) {
-            if (x % i == 0) {
-                somaDivisores = somaDivisores + i;
+        if (numero <= 1) {
+            return false;
+        }
+
+        for (i = 1; i <= numero / 2; i++) {
+            if (numero % i == 0) {
+                somaDivisores += i;
             }
         }
-        return (x == somaDivisores);
+
+        return somaDivisores == numero;
     }
 }

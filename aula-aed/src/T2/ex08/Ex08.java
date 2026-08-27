@@ -18,6 +18,7 @@ public class Ex08 {
 
         for (int i = 1; i <= n; i++) {
             for (int ImprimirMatriz = 1; ImprimirMatriz <= n; ImprimirMatriz++) {
+
                 obterBordaMatrizQuadrada(i, ImprimirMatriz, n);
             }
             System.out.println();

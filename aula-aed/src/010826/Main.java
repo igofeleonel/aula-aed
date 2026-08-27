@@ -8,7 +8,7 @@ public class Main {
         System.out.print(msg);
         return entrada.nextInt();
     }
-    
+
     public static void main(String[] args) {
         int n = lerInteiro("Digite um número (0 para encerrar): ");
         int soma = 0;

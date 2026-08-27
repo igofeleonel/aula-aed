@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static Scanner entrada = new Scanner(System.in);
 
     public static int lerInteiro(String mensagem) {
@@ -15,7 +16,6 @@ public class Main {
         System.out.println("Quantas vezes deseja repetir?");
         int vezes = entrada.nextInt();
 
-
         String caractere = "";
         // Processamento
 
@@ -23,7 +23,7 @@ public class Main {
             case 1:
                 caractere = "*";
                 break;
-            case 2: 
+            case 2:
                 caractere = "-";
                 break;
             default:
@@ -32,10 +32,10 @@ public class Main {
                 break;
         }
 
-        for (int i = 0; i < vezes; i++){
+        for (int i = 0; i < vezes; i++) {
             System.out.println(caractere);
         }
-        
+
         // Saída
         entrada.close();
     }

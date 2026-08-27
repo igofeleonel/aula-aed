@@ -1,9 +1,8 @@
-
 import java.util.Scanner;
 
 public class If {
-    
-    public final static Scanner tc  = new Scanner(System.in);
+
+    public final static Scanner tc = new Scanner(System.in);
 
     public static void main(String[] args) {
         int idade;
@@ -16,16 +15,13 @@ public class If {
 
         if (simNao == 1) {
             System.out.println("Voce gosta de maça");
-        }else{
+        } else {
             System.out.println("Voce nao gosta de maça");
         }
 
         // Entrada
-        
-        
-        // Processamento
 
-        
+        // Processamento
 
     }
 }

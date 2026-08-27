@@ -5,12 +5,12 @@ public class Ex04 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-       System.out.print("valor: ");
-       int valor = entrada.nextInt();
+        System.out.print("valor: ");
+        int valor = entrada.nextInt();
 
-       if (valor < 1 || valor > 600) {
-        System.out.println("valor inválido! Digite um valor entre R$ 1,00 e R$600,00");
-       } else {
+        if (valor < 1 || valor > 600) {
+            System.out.println("valor inválido! Digite um valor entre R$ 1,00 e R$600,00");
+        } else {
             int restante = valor;
 
             int notas100 = restante / 100;
@@ -19,7 +19,7 @@ public class Ex04 {
             int notas50 = restante / 50;
             restante = restante % 50;
 
-            int notas10 = restante /10;
+            int notas10 = restante / 10;
             restante = restante % 10;
 
             int notas5 = restante / 5;
@@ -50,7 +50,7 @@ public class Ex04 {
                     System.out.println(notas10 + " notas de R$ 10");
                 }
             }
-        
+
             if (notas5 > 0) {
                 if (notas5 == 1) {
                     System.out.println(notas5 + " nota de R$ 5");
@@ -66,8 +66,8 @@ public class Ex04 {
                     System.out.println(notas1 + " notas de R$ 1");
                 }
             }
-       }
+        }
 
-       entrada.close();
+        entrada.close();
     }
 }

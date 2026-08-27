@@ -15,7 +15,7 @@ public class Main {
         int opcao = entrada.nextInt();
         System.out.println("Quantas vezes deseja repetir?");
         int vezes = entrada.nextInt();
-        
+
         String caractere = "";
         // Processamento
 
@@ -23,16 +23,16 @@ public class Main {
             case 1:
                 caractere = "*";
                 break;
-            case 2: 
+            case 2:
                 caractere = "-";
                 break;
             default:
                 caractere = "?";
                 System.out.println("Opção inválida, usando padrão");
-             break;
+                break;
         }
 
-        for (int i = 0; i < vezes; i++){
+        for (int i = 0; i < vezes; i++) {
             System.out.println(caractere);
         }
 

@@ -8,7 +8,7 @@ public class Ex06 {
         System.out.print("ano: ");
         int ano = entrada.nextInt();
 
-        boolean bissexto = (ano % 4 == 0 && ano % 100 != 0) ||(ano % 400 == 0);
+        boolean bissexto = (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
 
         if (bissexto) {
             System.out.println("É bissexto");

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main01 {
     public static Scanner teclado = new Scanner(System.in);
 
-    public static int lerInteiro(){
+    public static int lerInteiro() {
         int valor;
         System.out.println("Digite um valor");
         valor = teclado.nextInt();
@@ -20,7 +20,7 @@ public class Main01 {
         // Processamento
         numero_quadrado = numero * numero;
 
-        //Saída
+        // Saída
         System.out.println(numero_quadrado);
     }
 }

@@ -7,11 +7,11 @@ public class Main_1059 {
         double lerEntrada;
         System.out.println(mensagem);
         lerEntrada = entrada.next().charAt(0);
-        return  lerEntrada;
+        return lerEntrada;
     }
 
     public static void main(String[] args) {
-        for (int i = 1; i<=100; i++) {
+        for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
             }

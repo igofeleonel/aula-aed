@@ -5,20 +5,22 @@ public class Ex10 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static int lerInteiro(String mensagem) {
-        int lerInteiro;
+        int valor_inteiro;
         System.out.print(mensagem);
-        lerInteiro = entrada.nextInt();
-        return lerInteiro;
+        valor_inteiro = entrada.nextInt();
+        return valor_inteiro;
     }
 
     public static void main(String[] args) {
+
         int somaNum;
         int i;
         int somaDivisores;
 
         somaNum = lerInteiro("");
 
-        while (true) {
+        do {
+
             somaDivisores = 0;
 
             for (i = 1; i < somaNum; i++) {
@@ -27,11 +29,13 @@ public class Ex10 {
                 }
             }
 
-            if (somaDivisores == somaNum) {
-                System.out.println(somaNum);
-                break;
+            if (somaDivisores != somaNum) {
+                somaNum++;
             }
-            somaNum++;
-        }
+
+        } while (somaDivisores != somaNum);
+
+        System.out.println(somaNum);
+
     }
 }

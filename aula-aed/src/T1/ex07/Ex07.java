@@ -10,23 +10,28 @@ public class Ex07 {
 
         System.out.print("Telefonou para a vítima? ");
         String r1 = entrada.nextLine().trim().toLowerCase();
-        if (r1.equals("s")) positivas++;
+        if (r1.equals("s"))
+            positivas++;
 
         System.out.print("Esteve no local do crime? ");
         String r2 = entrada.nextLine().trim().toLowerCase();
-        if (r2.equals("s")) positivas++;
+        if (r2.equals("s"))
+            positivas++;
 
         System.out.print("Mora perto da vítima? ");
         String r3 = entrada.nextLine().trim().toLowerCase();
-        if (r3.equals("s")) positivas++;
+        if (r3.equals("s"))
+            positivas++;
 
         System.out.print("Devia para a vítima? ");
         String r4 = entrada.nextLine().trim().toLowerCase();
-        if (r4.equals("s")) positivas++;
+        if (r4.equals("s"))
+            positivas++;
 
         System.out.print("Já trabalhou com a vítima? ");
         String r5 = entrada.nextLine().trim().toLowerCase();
-        if (r5.equals("s")) positivas++;
+        if (r5.equals("s"))
+            positivas++;
 
         if (positivas == 5) {
             classificacao = "Assasino";
@@ -41,4 +46,4 @@ public class Ex07 {
         System.out.println(classificacao);
         entrada.close();
     }
-}   
+}
